@@ -7,8 +7,8 @@
 
 h1 {
     text-align: center;
-    background: rgb(90, 189, 255);
-    color: darkblue;
+    background: rgb(233, 214, 129);
+    color: rgb(0, 0, 0);
 }
 
 ul {
@@ -18,4 +18,16 @@ ul {
 
 li {
     display: inline-block;
+}
+
+.speles_lauk {
+    background: rgb(54, 54, 54);
+    width: 520px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.bloks {
+   background : rgb(141, 8, 8);
 }
