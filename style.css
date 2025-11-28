@@ -41,3 +41,13 @@ li {
     display: flex;
     border-radius: 5px;
 }
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: cadetblue;
+}
