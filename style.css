@@ -50,4 +50,19 @@ a{
     font-weight: bold;
     text-align: center;
     background-color: cadetblue;
+    color: aliceblue;
+    border: 2px solid rgb(41, 83, 85);
+    border-radius: 5px;
+    transition: background-color 0.03s, transform 0.02s;
+}
+
+a:hover{
+    background-color:rgb(41, 83, 85);
+    transform: scale(1.05)
+}
+
+a:active{
+background-color:rgb(41, 83, 85);
+color: rgb(2, 22, 109);
+transform: scale(1.05)
 }
