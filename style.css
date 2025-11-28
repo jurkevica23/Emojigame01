@@ -2,13 +2,13 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(206, 199, 199);
+    background: rgb(180, 178, 178);
 }
 
 h1 {
     text-align: center;
-    background: rgb(233, 214, 129);
-    color: rgb(0, 0, 0);
+    background: rgb(152, 198, 241);
+    color: rgb(2, 22, 109);
 }
 
 ul {
@@ -21,13 +21,23 @@ li {
 }
 
 .speles_lauk {
-    background: rgb(54, 54, 54);
+    background: black;
     width: 520px;
     justify-content: center;
     margin: auto;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .bloks {
-   background : rgb(141, 8, 8);
+    background: red;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 45px;
+    display: flex;
+    border-radius: 5px;
 }
