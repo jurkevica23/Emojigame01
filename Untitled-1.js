@@ -1,6 +1,6 @@
 //no URL iegUst vArdu
 let adrese = window.location.hash.substring(1);
-let vards = decodeURI(adrese.split(',')[0]   '').trim();
+let vards = decodeURI(adrese.split(',')[0] ||  '').trim();
 
 //mainīgie spēles darbībai
 let laiks = 0; //sekundes
