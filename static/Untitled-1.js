@@ -104,8 +104,10 @@ function veiktGajienu(bloks, emoji) {
                 stopTimer();
             //parāda rezultātu
             setTimeout(() => {
-                alter
-            })
+                alter(`Apsveicu, ${vards}! \nKlikski: ${klikski}\nLaiks: ${formatTime(laiks)}`);
+                    //padodam rezultātu uz TOP'a lapu (db vēl neko nesaglabā)
+                    document.location = `/tops#${encodeURIComponent(vards)},${klikski},${laiks}`;
+            } 300);
         }
     }
 }
